@@ -1,3 +1,14 @@
+'''
+BINGO mini PROJECT game
+
+The program generates a bingo card with random numbers between 1 and 90
+It will ask you what number has been called.
+It will cover the number in the card with an 'X' accordingly.
+
+Made by Alessandro Silvestri © 2022 <alessandro.silvestri.work@gmail.com>
+'''
+
+
 import random
 
 def pretty_print(t):
@@ -35,15 +46,4 @@ while True:
     if check_win(bingo_nums):
         print('BINGO!!')
         break
-
-
-
-
-
-
-
-
-
-
-
 
